@@ -47,7 +47,7 @@ The "Java Swing-based Compressor and Decompressor" project is a software applica
 
 ## Download Links
 
-- [Download JAR](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/CompressorDecompressor.jar)
+- [Download JAR (requires Java installed)](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/CompressorDecompressor.jar)
 - [Download EXE](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/Compressor_Decompressor.exe)
 
 ---
