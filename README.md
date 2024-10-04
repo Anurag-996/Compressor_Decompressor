@@ -69,4 +69,4 @@ Feel free to explore the code, contribute, or reach out if you have any question
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-Developed by [@Anurag-384](https://github.com/Anurag-996). Feel free to reach out for suggestions, issues, or collaboration!
+Developed by [@Anurag-996](https://github.com/Anurag-996). Feel free to reach out for suggestions, issues, or collaboration!
