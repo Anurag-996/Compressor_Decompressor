@@ -1,55 +1,72 @@
 # Compressor_Decompressor
 
-## Description
+## Project Overview
 
-The "Java Swing-based Compressor and Decompressor" project is a software application developed in Java that provides a user-friendly graphical user interface (GUI) for compressing and decompressing files using the GZip algorithm. The primary goal of this project is to offer an intuitive and efficient tool for users to reduce the size of files or directories and subsequently restore them to their original state without any lossy conversions.
+**Compressor_Decompressor** is a Java-based application that allows users to compress and decompress files using the efficient GZip algorithm. With its sleek, intuitive graphical interface designed using Java Swing, the tool provides a seamless experience for managing file sizes without compromising data integrity. Whether you're looking to reduce file sizes for storage or quickly decompress archived files, this application delivers high performance with a simple, user-friendly design.
 
-## Tech Stack
+## Features at a Glance
 
-- **Java:** The core programming language used to develop the application.
-- **Java Swing:** The GUI framework employed to design and implement the user interface.
-- **GZip Algorithm:** A popular compression algorithm used to reduce the size of files.
+### 🔄 File Compression
+- **Simple File & Folder Selection**: Quickly choose files or entire directories for compression.
+- **Customizable Output**: Easily specify where the compressed files should be saved.
+- **Real-time Progress Tracking**: Stay informed with a progress bar and status updates while compression is in progress.
+- **Instant Notifications**: Get notified when compression is complete.
+- **Lossless Compression**: Ensure your files retain their original quality and data integrity.
 
-## Key Features
+### 🗂️ File Decompression
+- **Easy Decompression**: Select GZip-compressed files and restore them to their original state with just a few clicks.
+- **Custom Output Location**: Specify where the decompressed files should be stored.
+- **Visual Feedback**: Keep track of the decompression progress with a dynamic progress bar.
 
-### Compress Files
+### 🖥️ Enhanced User Interface (UI)
+- **Responsive Design**: A clean, modern layout that adjusts smoothly to different file operations.
+- **Interactive Buttons & File Dialogs**: Simple and intuitive buttons and dialogs for selecting files and folders.
+- **Detailed Status Messages**: Users receive helpful status messages, ensuring they know exactly what's happening at every step.
+- **Error Handling**: Graceful handling of issues like file not found, invalid formats, or disk space limitations with informative messages.
 
-- The application allows users to select individual files or entire directories for compression using the GZip algorithm.
-- Users can specify the destination location for the compressed file(s).
-- The compression process is carried out in the background, with a progress bar or status indicator to show the progress to the user.
-- Once the compression is completed, users receive a notification, and the compressed file is saved at the specified location.
-- The compression process ensures that there are no lossy conversions, preserving the integrity of the original file content.
+## Technical Details
 
-### Decompress Files
+### Tech Stack
+- **Java**: The core programming language used to build the application's logic.
+- **Java Swing**: GUI framework used to craft a responsive and visually appealing interface.
+- **GZip Algorithm**: Industry-standard algorithm for lossless compression and decompression.
 
-- Users can select GZip-compressed files and decompress them to their original format.
-- The decompression process is initiated by selecting the compressed file and specifying the destination folder for the decompressed files.
-- Progress of the decompression process is displayed, and users are notified when the operation is completed.
-- The decompression process ensures that there are no lossy conversions, ensuring the original data is accurately reconstructed.
-
-### User-friendly GUI
-
-- The GUI is designed using Java Swing, providing a visually appealing and intuitive interface for users to interact with the application.
-- The application offers buttons, menus, and file selection dialogs to enable users to navigate and interact with files easily.
-
-### Error Handling
-
-- The application handles various error scenarios, such as file not found, invalid file formats, and disk space limitations.
-- Informative error messages are displayed to users to assist in troubleshooting and resolving issues.
-
-### Multi-threading
-
-- To ensure a smooth user experience, the application employs multi-threading to perform file compression and decompression tasks in the background, preventing the GUI from becoming unresponsive during lengthy operations.
-
-### File Integrity Checks
-
-- The application validates the integrity of compressed files during decompression to ensure that the original files are accurately reconstructed.
+### Multi-threaded Performance
+The application utilizes multi-threading to handle long-running compression and decompression tasks in the background, preventing the user interface from freezing during operations. This ensures a fluid user experience even with large files or directories.
 
 ## Download Links
 
-- [Download JAR (requires Java installed)](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/CompressorDecompressor.jar)
-- [Download EXE](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/Compressor_Decompressor.exe)
+- [Download JAR (requires Java installed)](https://github.com/vivek-384/Compressor_Decompressor/raw/main/CompressorDecompressor.jar)
+- [Download EXE](https://github.com/vivek-384/Compressor_Decompressor/raw/main/Compressor_Decompressor.exe)
 
----
+## Getting Started
 
-Overall, the Java Swing-based Compressor and Decompressor using the GZip algorithm provides a user-friendly and efficient solution for compressing and decompressing files in a familiar and intuitive manner. Users can easily manage file size and share data more efficiently, making it a valuable tool for various applications. The project ensures that no lossy conversions occur during compression and decompression, preserving the content integrity of the files.
+### Or you can clone this repository:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/vivek-384/Compressor_Decompressor.git
+
+2. Navigate to the project directory
+    ```bash
+    cd Compressor_Decompressor
+
+3. Compile the Java code
+    ```bash
+    java -jar CompressorDecompressor.jar
+
+## Screenshot
+
+### User Interface
+![Compression/Decompression UI](screenshot/compressor_decompressor.png)
+
+## Conclusion
+
+The **Compressor_Decompressor** application offers a reliable and user-friendly solution for file compression and decompression using the GZip algorithm. Whether you're managing large files or just looking to optimize storage, this tool simplifies the process while ensuring data integrity. 
+
+Feel free to explore the code, contribute, or reach out if you have any questions or suggestions!
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed by [@vivek-384](https://github.com/vivek-384). Feel free to reach out for suggestions, issues, or collaboration!
