@@ -36,15 +36,15 @@ The application utilizes multi-threading to handle long-running compression and 
 
 ## Download Links
 
-- [Download JAR (requires Java installed)](https://github.com/vivek-384/Compressor_Decompressor/raw/main/CompressorDecompressor.jar)
-- [Download EXE](https://github.com/vivek-384/Compressor_Decompressor/raw/main/Compressor_Decompressor.exe)
+- [Download JAR (requires Java installed)](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/Compressor_Decompressor.jar)
+- [Download EXE](https://github.com/Anurag-996/Compressor_Decompressor/raw/main/Compressor_Decompressor.exe)
 
 ## Getting Started
 
 ### Or you can clone this repository:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/vivek-384/Compressor_Decompressor.git
+   git clone https://github.com/Anurag-996/Compressor_Decompressor.git
 
 2. Navigate to the project directory
     ```bash
@@ -52,12 +52,12 @@ The application utilizes multi-threading to handle long-running compression and 
 
 3. Compile the Java code
     ```bash
-    java -jar CompressorDecompressor.jar
+    java -jar Compressor_Decompressor.jar
 
 ## Screenshot
 
 ### User Interface
-![Compression/Decompression UI](screenshot/compressor_decompressor.png)
+![Compression/Decompression UI](screenshot/compressor_decompressor.PNG)
 
 ## Conclusion
 
@@ -69,4 +69,4 @@ Feel free to explore the code, contribute, or reach out if you have any question
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-Developed by [@vivek-384](https://github.com/vivek-384). Feel free to reach out for suggestions, issues, or collaboration!
+Developed by [@Anurag-384](https://github.com/Anurag-996). Feel free to reach out for suggestions, issues, or collaboration!
